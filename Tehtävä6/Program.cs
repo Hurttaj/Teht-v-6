@@ -10,6 +10,9 @@ namespace Tehtävä6
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Anna matka kilometreinä:");
+            float Matka = float.Parse(Console.ReadLine());
+            Console.WriteLine("Bensaa kuluu " + Matka * 0.0702 + " litraa, kustannus " + Matka * 0.0702 * 1.595 + " euroa.");
         }
     }
 }
